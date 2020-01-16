@@ -5,7 +5,8 @@ class UserModel {
 
   String version;
 
-  UserModel(this.seed, this.user, this.version);
+  UserModel(this.seed,// this.user,
+      this.version);
 }
 
 class User {
